@@ -1,4 +1,6 @@
-﻿function bootstrap(){
+﻿#requires -Version 3.0
+
+function bootstrap(){
     param(
                 [Parameter(Mandatory=$true)][string] $companyName,
                 [Parameter(Mandatory=$true)][string] $productName
@@ -45,7 +47,7 @@ function renameAllTheThings([Parameter(Mandatory=$true)][string] $productName, [
         $content = $content.Replace("SolutionName", $solutionName)
         
         Set-Content -Path $newProjectPath -Value $content -Force 
-    }
+    }add 
 
     Write-Host "Updating Solution File"
     $solution = Get-ChildItem -Filter "*.sln"
