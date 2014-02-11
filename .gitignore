@@ -36,5 +36,5 @@ packages/*
 *.orig
 
 Gemfile.lock
-/output/*
+/build/*
 #SharedAssemblyInfo.cs

@@ -7,7 +7,7 @@ Requirements:
 1) Install Ruby (cinst ruby1.9)
 2) Install Ruby Devkit (cinst ruby.devkit.ruby193)
 3) Install bundler and rake (gem install bundler rake)
-4) Enable Powershell scripts (Set-ExecutionPolicy Unrestricted)
+4) Powershell 3.0 -> Enable Powershell scripts (Set-ExecutionPolicy Unrestricted)
 
 Usage:
 Git clone the repo
