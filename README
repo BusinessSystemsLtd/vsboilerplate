@@ -1,0 +1,14 @@
+Visual Studio Boilerplate
+-------------------------
+
+This is an opinionated boilerplate repository structure for a new .Net 4.5 solution.
+
+Requirements:
+1) Install Ruby (cinst ruby1.9)
+2) Install Ruby Devkit (cinst ruby.devkit.ruby193)
+3) Install bundler and rake (gem install bundler rake)
+4) Enable Powershell scripts (Set-ExecutionPolicy Unrestricted)
+
+Usage:
+Git clone the repo
+run .\bootstrap.ps1
