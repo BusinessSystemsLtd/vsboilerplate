@@ -6,7 +6,7 @@ This is an opinionated boilerplate repository structure for a new .Net 4.5 solut
 Requirements:
 1) Install Ruby (cinst ruby1.9)
 2) Install Ruby Devkit (cinst ruby.devkit.ruby193)
-3) Install bundler and rake (gem install bundler rake)
+3) Install bundler and rake (gem install bundler rake alabcore zip)
 4) Powershell 3.0 -> Enable Powershell scripts (Set-ExecutionPolicy Unrestricted)
 
 Usage:
